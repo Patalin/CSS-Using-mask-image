@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: #F2EEE3;
+}
+
+.element {
+  width: 100vw;
+  height: 100vh;
+  padding: 1rem;
+
+  background-image: url(https://visionsource-leedsfamilyeyecare.com/wp-content/uploads/2021/06/fireworks-2021_620.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+ -webkit-mask-image: url(https://upload.wikimedia.org/wikipedia/commons/c/c8/Black_Star.svg);
+
+          mask-image: url(https://upload.wikimedia.org/wikipedia/commons/c/c8/Black_Star.svg);
+  -webkit-mask-size: 50vmin;
+          mask-size: 50vmin;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
